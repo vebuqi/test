@@ -46,16 +46,16 @@ var EventUtil = {
 			return event.button;
 		} else {
 			switch(event.button) {
-				case: 0
-				case: 1
-				case: 3
-				case: 5
-				case: 7 return 0;
+				case 0:
+				case 1:
+				case 3:
+				case 5:
+				case 7: return 0;
 
-				case: 2
-				case: 6 return 1;
+				case 2:
+				case 6: return 1;
 
-				case: 4 return 2;
+				case 4: return 2;
 			}
 		}
 	},
